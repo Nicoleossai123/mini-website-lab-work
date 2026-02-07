@@ -50,4 +50,41 @@ footer {
   padding-top: 20px;
   color: rgb(211, 218, 240);
 }
-  
+
+table{
+    margin-top:50px;
+
+}
+table,caption,th,td{
+    border:1px solid #000;
+}
+th,td{
+    width:150px;
+    height:35px;
+    text-align:center;
+}
+caption{
+    text-transform:uppercase;
+    font-weight:600px;
+    height:40px;
+    padding-top:15px;
+    color:#753a30;
+}
+label{
+    display:block;
+    margin:15px 0 0 0;
+}
+input{
+    width:300px;
+}
+textarea{
+    width:300px;
+}
+input[type="radio"]{
+    width:25px;
+}
+input[type="submit"]{
+    display:block;
+    margin:20px 0 10px 0;
+    width:100px;
+}
